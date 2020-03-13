@@ -1,6 +1,6 @@
 ;
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'v1_cache_coffee_0.2',
+const CACHE_NAME = 'v1_cache_coffee_0.3',
   urlsToCache = [
     './',
     'https://fonts.googleapis.com/css?family=Lato&display=swap',
