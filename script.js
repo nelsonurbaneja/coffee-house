@@ -22,7 +22,7 @@ var toggleHome = document.getElementById('toggle-home');
 var notification = document.getElementById('notification');
 var salir = document.getElementById('salir');
 salir.addEventListener('click', function (e) {
-  location.href = "".concat(location.origin, "/index.html");
+  location.href = "/";
 });
 
 var removeNotification = function removeNotification() {
@@ -89,8 +89,7 @@ showMenu('toggle-menu', 'main-menu');
 var icon = Array.from(document.getElementsByClassName('main_product__icon'));
 icon.forEach(function (ele) {
   ele.addEventListener('click', function (evt) {
-    if (ele.src == "".concat(location.href, "/img/heartBrown.png")) {
-  
+    if (ele.src == "".concat("./img/heartBrown.png")) {
       ele.nextSibling.nextSibling.innerText++;
       ele.src = "./img/heartRed.png";
     } else {
@@ -110,7 +109,7 @@ products.forEach(function (product) {
   });
 });
 toggleHome.addEventListener('click', function (e) {
-  location.href = "".concat(location.origin, "/app.html");
+  location.href = "./app.html";
 }); // const comments = id => {
 //     const fbComments = `<div class = "fb-comments" data-href = "${location.href}" data-width = "" data-numposts = "5" > </div>`
 //     const container = document.getElementById(id)
