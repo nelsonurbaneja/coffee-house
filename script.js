@@ -22,7 +22,7 @@ var toggleHome = document.getElementById('toggle-home');
 var notification = document.getElementById('notification');
 var salir = document.getElementById('salir');
 salir.addEventListener('click', function (e) {
-  location.href = "/";
+  location.href = "https://nelsonurbaneja.github.io/coffee-house/";
 });
 
 var removeNotification = function removeNotification() {
@@ -84,7 +84,7 @@ var showMenu = function showMenu(idToggle, idMenu) {
     });
   }
 };
-console.log(location.href)
+console.log(`${location.href}./img/heartBrown.png`)
 showMenu('toggle-menu', 'main-menu');
 var icon = Array.from(document.getElementsByClassName('main_product__icon'));
 icon.forEach(function (ele) {
