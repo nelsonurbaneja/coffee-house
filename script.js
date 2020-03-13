@@ -90,12 +90,12 @@ var icon = Array.from(document.getElementsByClassName('main_product__icon'));
 icon.forEach(function (ele) {
   ele.addEventListener('click', function (evt) {
     console.log(ele.src)
-    if (ele.src == "./img/heartBrown.png") {
+    if (ele.src == "https://nelsonurbaneja.github.io/coffee-house/img/heartBrown.png") {
       ele.nextSibling.nextSibling.innerText++;
-      ele.src = "./img/heartRed.png";
+      ele.src = "https://nelsonurbaneja.github.io/coffee-house/img/heartRed.png";
     } else {
       ele.nextSibling.nextSibling.innerText--;
-      ele.src = "./img/heartBrown.png";
+      ele.src = "https://nelsonurbaneja.github.io/coffee-house/img/heartBrown.png";
     }
   });
 });
