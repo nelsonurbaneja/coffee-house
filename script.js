@@ -84,12 +84,13 @@ var showMenu = function showMenu(idToggle, idMenu) {
     });
   }
 };
-
+console.log(location.href)
 showMenu('toggle-menu', 'main-menu');
 var icon = Array.from(document.getElementsByClassName('main_product__icon'));
 icon.forEach(function (ele) {
   ele.addEventListener('click', function (evt) {
-    if (ele.src == "".concat(location.origin, "/img/heartBrown.png")) {
+    if (ele.src == "".concat(location.href, "/img/heartBrown.png")) {
+  
       ele.nextSibling.nextSibling.innerText++;
       ele.src = "./img/heartRed.png";
     } else {
