@@ -1,0 +1,39 @@
+{
+  "name": "CofeeHouse",
+  "short_name": "CofeeHouse",
+  "description": "Bienvenid@s a CoffeHouse, aqui podras encontras toda clase de Cafe,de todos los paises para que te sientas como en casa",
+  "background_color": "#9A8E8F",
+  "theme_color": "#9A8E8F",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-VE",
+  "icons": [
+    {
+      "src": "./img/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/logo384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/logo256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/logo96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/logo32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}
